@@ -41,6 +41,8 @@ function addThreeForGuest(){
 //NEW GAME
 
 function newGame(){
+    homeScoreTotal = 0
+    guestScoreTotal = 0
     homeScoreEl.textContent = 0
     guestScoreEl.textContent = 0
 }
