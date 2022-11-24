@@ -1,0 +1,69 @@
+body {
+    background-color: #1B244A; 
+    color: white;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+    padding-top: 50px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 36px;
+    margin-bottom: 60px;
+    text-shadow: -2px 2px #F94F6D;
+}
+
+h3{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 36px;
+}
+
+.player-board{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 70px;
+}
+
+.player-score{
+    padding: 0px 20px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 127px;
+    background-color: black;
+    color: #F94F6D;
+    text-align: center;
+}
+
+button{
+    font-family: 'Press Start 2P', cursive;   
+    cursor: pointer; 
+}
+
+.score-add-button{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #9AABD8;
+    background-color: #1B244A; 
+    border: 2px solid #9AABD8;
+    border-radius: 5px;    
+}
+
+#new-game-el{
+    background-color: lightgreen;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    border: none;
+    padding: 7px;
+}
+
+#new-game-el:hover{
+    background-color: darkgreen;
+    color: white;
+    border-radius: 13px;
+}
